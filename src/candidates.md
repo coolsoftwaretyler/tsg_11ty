@@ -1,0 +1,116 @@
+---
+tags: nav
+title: Candidates
+layout: default.liquid
+---
+
+<style>
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(12, [col-start] 1fr);
+  }
+  .candidates-hero-img,
+  .candidates-services,
+  .candidates-get-involved,
+  .candidates-stock-img-1,
+  .candidates-our-process,
+  .candidates-openings,
+  .candidates-resume-reviews,
+  .candidates-resume-picture,
+  .candidates-application-form
+   {
+    grid-column: 1 / -1;
+  }
+
+  @media all and (min-width: 81rem) {
+    .candidates-our-process {
+      grid-column: 1 / 9;
+    }
+
+    .candidates-openings {
+      grid-column: 9 / 13;
+    }
+
+  }
+
+  @media all and (max-width: 81rem) {
+    .candidates-our-process *, .candidates-openings * {
+      padding-left: 2% !important;
+    }
+  }
+
+  @media all and (min-width: 81rem) {
+
+        .candidates-resume-reviews {
+          grid-column: 1 / 5;
+        }
+
+        .candidates-resume-picture {
+          grid-column: 5 / 13;
+        }
+  }
+</style>
+
+<div class="grid">
+
+  <div class="candidates-hero-img" data-aos="fade-up">
+    <div class="candidates-hero-text">
+      <h1 class="text-light-green text-left" style="font-size: 92px; line-height: .75;">CANDIDATES</h1>
+      <p>We're looking out for you</p>
+      <a href="/candidates#submit-resume"><button class="btn btn-primary tsg-btn hvr-sweep-to-right text-white">Submit your resume</button></a>
+    </div>
+  </div>
+
+  <div class="candidates-services text-center" data-aos="fade-up">
+    <h1 class="mb-0">OUR SERVICES</h1>
+        <p class="text-center" style="font-size: 22px;">Accelerate your Career Path</p>
+    <p class="text-center" style="font-size:20px;">We help employers across the cannabis industry, including dispensaries, cannabis cultivation centers, and advocacy organizations, find the right candidates. We also offer staffing services for ancillary businesses and professional fields such as the
+      accounting, legal and medical fields specializing in cannabis. The partners behind our firm each have more than a decade of experience working to legalize cannabis and legitimize the growing cannabis industry. Because of our experience and personal
+      connections, our clients look to us to provide the right candidates for their growing businesses.</p>
+    <p style="font-weight: 700;" class="text-center">We are fully dedicated to promoting diversity in the workplace, and we strongly encourage women, people of color, LGBTQ candidates and candidates with disabilities to submit their resumes.</p>
+    <a href="https://jobs.crelate.com/portal/thcstaffing"><button type="button" class="btn btn-primary tsg-btn hvr-sweep-to-right">See current openings</button></a>
+  </div>
+
+  <div class="candidates-get-involved text-center" data-aos="fade-up">
+    <h1 class="text-light-green">WE CAN HELP YOU GET INVOLVED – OR IF YOU’RE ALREADY PART OF THE INDUSTRY, ACCELERATE YOUR CAREER PATH</h1>
+    <a href="/candidates#submit-resume"><button type="button" class="btn btn-primary tsg-btn hvr-sweep-to-right text-white">Sign up ></button></a>
+  </div>
+
+  <div class="candidates-stock-img-1" data-aos="fade-up">
+    <img alt=" " src="img/candidates/our-process.jpg" style="width: 100%" />
+  </div>
+
+  <div class="candidates-our-process" data-aos="fade-up">
+    <h1 class="text-left" style="font-size: 36px; padding-left: 10%">OUR PROCESS</h1>
+    <p style="padding-left: 10%">If you are interested in a career in the cannabis industry, submit your resume and details to us using the form below. If we see an opportunity that might fit your skills and interests, we will contact you for an interview.
+    </p>
+    <p style="padding-left: 10%">Following a successful interview with us, we may need to a background check, depending on the company and location. Past cannabis-related offenses will not automatically disqualify you as a candidate.</p>
+    <p style="padding-left: 10%">Next, we will check your references. After an interview, background check, and reference check, if your skills, experience and personality are a good fit with a cannabis business, we will introduce you as a match.</p>
+  </div>
+
+  <div class="candidates-openings" data-aos="fade-up" >
+    <h1 class="text-left" style="font-size: 25px; margin-top: 50px; padding-left: 10%;">Openings</h1>
+    <p style="padding-left: 10%">The industry and our client pool are constantly evolving; if you don’t hear from us right away, don’t give up. Our needs are always changing based on what our clients are looking for. Keep an eye on our social media pages for current openings and
+      be sure to check our current job listings.</p>
+  </div>
+
+  <div class="candidates-resume-reviews" data-aos="fade-up">
+    <span class="fancy">our services</span>
+    <h1 class="text-left">RESUME REVIEWS</h1>
+    <p>We offer resume reviews to help you put your best self forward. We’ll help you highlight your skills and expertise most relevant to the cannabis industry, and we’ll prepare you to tailor it for your target position. A resume review costs $100 and
+      includes an hour with one of our recruiting professionals going over your resume with you and answering general questions about opportunities in the industry. In order to make the most of our time together, we will ask you to provide some information
+      in advance about your experiences and about the types of jobs you are targeting.</p>
+    <a href="/candidates#submit-resume"><button type="button" class="btn btn-primary tsg-btn hvr-sweep-to-right">SIGN UP</button></a>
+  </div>
+
+  <div class="candidates-resume-picture" data-aos="fade-up">
+    <img alt=" " src="img/candidates/resume-reviews.jpg" style="width: 100%" />
+  </div>
+
+  <div class="candidates-application-form" id="submit-resume" data-aos="fade-up">
+    <h1 style="text-align: center">Application Form</h1>
+    <iframe src="https://thcstaffing.crelate.com/portal/apply?iframe=true" width="100%" height="1000" scrolling="yes" class="iframe-class" frameborder="0"></iframe>
+  </div>
+
+  </div>
+
